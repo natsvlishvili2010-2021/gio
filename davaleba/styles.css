@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* font-family: 'Roboto', sans-serif; */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+.wrapper {
+	background: url(images/foni.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+
+.navbar {
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4); 
+}
+
+.navbar .logo {
+	width: 140px;
+	height: auto;
+	padding: 20px 100px;
+}
+
+.navbar ul {
+	float: right;
+	margin-right: 20px;
+}
+
+.navbar ul li {
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+
+.navbar ul li a {
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: 0.4s;
+}
+
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+	background: blue;
+	border-radius: 2px;
+}
+
+
+.center{
+  font-size: 35px;
+  background: rgba(36, 35, 35, 0.9); 
+  width: 850px;
+  height: 200px;
+
+}
+
+.btn1{
+	width: 115px;
+	height: 40px;
+	font-size: 19px;
+background-color: rgb(11, 173, 11);
+
+}
+	
+	
+
+
+.btn2{
+	width: 150px;
+	height: 40px;
+	font-size: 19px;
+	background-color: rgb(11, 173, 11);
+
+	
+	
+}
